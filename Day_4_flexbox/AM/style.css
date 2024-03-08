@@ -1,0 +1,40 @@
+.container{
+    height: 80vh;
+    border: 2px solid black;
+    display: flex;
+    /*flex-direction: column, row; */
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-evenly*/
+    /*align-items*/
+}
+
+.box{
+    height: 200px;
+    font-size: 10em;
+    text-align: center;
+    width: 200px
+}
+
+/*box colour*/
+
+.box1{
+    /* flex-basis: 250; */
+    background-color: blueviolet;
+    /*flex-grow: 2;*/
+    flex:1 2 150px; /* flex-grow, flex shrink flex-basis*/
+   /* order: 2; change the order of items */
+}
+.box2{
+    /*flex-basis: 250; */
+    background-color: azure;
+    /*flex-grow: 1;*/
+   /* flex-shrink: 4; */
+   /* flex:3 1 150px; */
+   
+}
+.box3{
+    /*flex-basis: 250; */
+    background-color: blue;
+    flex-grow: 1;
+    /* flex:3 1  150px; */
+} 

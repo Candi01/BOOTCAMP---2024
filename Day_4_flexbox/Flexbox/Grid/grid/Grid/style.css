@@ -1,0 +1,26 @@
+div{
+    background-colour: gold;
+}
+body{
+    display: grid;
+    grid-template-columns: 300px 150px 100px;
+    grid-template-rows: 100px 400px 100px
+    gap:10px;
+}
+.header{
+    grid-column: 1/4;
+}
+.article{
+    grid-column: 1/4;       
+}
+.nav{
+    grid-column: 2/3;
+    grid-row:2/4;
+}
+.ads{
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+.footer{
+    grid-column: 1/2;
+}

@@ -1,0 +1,15 @@
+{container
+    display: grid;
+    grid-template-colomn: (3,1fr);
+
+}
+.box{
+    background-color: blueviolet;
+    font-size: 5em;
+
+}
+
+.box:nth-child(even)    
+{
+    background-color: bisque;
+}
